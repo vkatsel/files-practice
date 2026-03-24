@@ -1,0 +1,10 @@
+[10:05:21] GET /index.html -> 200 OK
+[10:05:23] GET /style.css -> 200 OK
+[10:05:30] GET /admin_dashboard.php -> 404 Not Found
+[10:06:01] POST /api/login -> 200 OK
+[10:06:15] GET /wp-login.php -> 404 Not Found
+[10:06:40] GET /assets/logo.png -> 200 OK
+[10:07:05] GET /.env -> 404 Not Found
+[10:07:22] GET /api/users -> 200 OK
+[10:08:10] GET /backup.zip -> 404 Not Found
+[10:08:15] GET /favicon.ico -> 200 OK

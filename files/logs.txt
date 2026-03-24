@@ -1,0 +1,25 @@
+INFO: System boot sequence initiated
+INFO: Loading kernel modules
+WARNING: Deprecated configuration format in /etc/network
+INFO: Network interface eth0 up
+INFO: Starting SSH daemon
+ERROR: Failed to bind to port 22 - address already in use
+INFO: Starting database service
+INFO: Database connection established
+INFO: User 'admin' authenticated successfully
+WARNING: High CPU usage detected (85%)
+INFO: Executing scheduled background task
+ERROR: Background task failed: Missing permissions on /var/log/backup.log
+INFO: User 'guest' attempted login
+WARNING: Invalid password attempt for user 'guest'
+WARNING: Invalid password attempt for user 'guest'
+ERROR: Account 'guest' locked due to multiple failed logins
+INFO: System health check initiated
+INFO: All critical services running
+ERROR: Database connection timeout during query execution
+INFO: Retrying database connection...
+INFO: Connection restored
+WARNING: Disk space on /dev/sda1 is at 92% capacity
+ERROR: File upload failed: Insufficient storage space
+INFO: Clearing temporary cache files
+INFO: System shutdown requested

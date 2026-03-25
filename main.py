@@ -39,14 +39,18 @@ import json
 #     avr = total_sum/counter
 # print(f"The average is {avr} and the most expensive product costs {maximum(reader)}$")
 # total = 0
-# with open("data/data.json", "r", encoding = "utf-8") as file:
-#     user_data = json.load(file)
-#     # for el in user_data:
-#     #     if el["state"] == "California":
-#     #         total += 1
-#     list_ca = [i for i in user_data if i["state"] == 'California']
-#     print(list_ca)
-#     print(f"The amount of californians is {len(list_ca)}, out of {len(user_data)}")
+with open("data/data.json", "r", encoding = "utf-8") as file, \
+        open("data/data-ca.json", "w", encoding="utf-8") as dest:
+    user_data = json.load(file)
+    # for el in user_data:
+    #     if el["state"] == "California":
+    #         total += 1
+    list_ca = [i for i in user_data if i["state"] == 'California']
+
+    json.dump(list_ca, dest, indent=4)
+
+    print(list_ca)
+    print(f"The amount of californians is {len(list_ca)}, out of {len(user_data)}")
 
 
 

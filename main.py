@@ -39,8 +39,12 @@ import json
 #     avr = total_sum/counter
 # print(f"The average is {avr} and the most expensive product costs {maximum(reader)}$")
 # total = 0
+from tkinter import filedialog
+
+filepath = filedialog.asksaveasfilename()
+
 with open("data/data.json", "r", encoding = "utf-8") as file, \
-        open("data/data-ca.json", "w", encoding="utf-8") as dest:
+        open(filepath, "w", encoding="utf-8") as dest:
     user_data = json.load(file)
     # for el in user_data:
     #     if el["state"] == "California":

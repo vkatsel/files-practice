@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Emily Johnson",
+        "company": "ABC Corporation",
+        "username": "emily_johnson",
+        "email": "emily.johnson@abccorporation.com",
+        "address": "123 Main St",
+        "zip": "12345",
+        "state": "California",
+        "country": "USA",
+        "phone": "+1-555-123-4567",
+        "photo": "https://loremflickr.com/1076/2263?lock&#x3D;1311373814763876"
+    },
+    {
+        "id": 5,
+        "name": "William Brown",
+        "company": "Global Manufacturing",
+        "username": "william_brown",
+        "email": "william.brown@globalmfg.com",
+        "address": "222 Pine St",
+        "zip": "56789",
+        "state": "California",
+        "country": "USA",
+        "phone": "+1-555-666-7777"
+    },
+    {
+        "id": 9,
+        "name": "Robert Johnson",
+        "company": "Fashion Trends Inc.",
+        "username": "robert_johnson",
+        "email": "robert.johnson@fashiontrends.com",
+        "address": "666 Style Ave",
+        "zip": "13579",
+        "state": "California",
+        "country": "USA",
+        "phone": "+1-555-777-8888"
+    }
+]
